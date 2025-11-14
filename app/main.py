@@ -38,7 +38,7 @@ from .schemas import (
     ProjectReadWithOwner, ProjectCreateForUser
 )
 
-app = FastAPI()
+#app = FastAPI()
 
 # Create tables in the database
 Base.metadata.create_all(bind=engine)
